@@ -1,7 +1,0 @@
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\bin\Debug\Nutzerverwaltung.exe.config
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\bin\Debug\Nutzerverwaltung.exe
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\bin\Debug\Nutzerverwaltung.pdb
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\obj\Debug\Nutzerverwaltung.csprojResolveAssemblyReference.cache
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\obj\Debug\Nutzerverwaltung.csproj.CoreCompileInputs.cache
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\obj\Debug\Nutzerverwaltung.exe
-C:\xampp\htdocs\Grundlagen_Programmieren_C#\Nutzerverwaltung\Nutzerverwaltung\obj\Debug\Nutzerverwaltung.pdb
