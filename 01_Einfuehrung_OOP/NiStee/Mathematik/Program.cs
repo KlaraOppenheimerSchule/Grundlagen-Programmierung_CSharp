@@ -1,5 +1,4 @@
-﻿using System;
-using System.Runtime.CompilerServices;
+using System;
 
 namespace Mathematik {
     class Program {
@@ -13,7 +12,11 @@ namespace Mathematik {
             Console.WriteLine(neueRechnung2.Ergebnis);
 
             var neueRechnung3 = new Mathe();
-            neueRechnung3.Quadrat(32);
+            neueRechnung3.Quadrat(6);
+            Console.WriteLine(neueRechnung3.Ergebnis);
+
+            var neueRechnung4 = new Mathe();
+            neueRechnung4.Quadrat(-6);
             Console.WriteLine(neueRechnung3.Ergebnis);
         }
     }
