@@ -6,36 +6,37 @@ namespace Mathematik {
         public Mathe() {
 
         }
-        
-        public decimal Ergebnis { get; private set; }
 
-        public void OutofRange(int zahl) {
+        internal decimal Ergebnis { get; private set; }
+
+        private void OutofRange(int zahl) {
             if (zahl <= 0) {
                 throw new ArgumentOutOfRangeException(nameof(zahl), $"Eingabewert \"{zahl}\" muss eine Natürliche Zahl (größer Null) sein");
             }
         }
 
-        public decimal Summe(int zahl, int zahl2) {
+        internal decimal Summe(int zahl, int zahl2) {
             OutofRange(zahl);
             OutofRange(zahl2);
             this.Ergebnis = zahl + zahl2;
             return this.Ergebnis;
         }
-        public decimal Quadrat(int zahl) {
+        internal decimal Quadrat(int zahl) {
             OutofRange(zahl);
             this.Ergebnis = zahl * zahl;
             return this.Ergebnis;
         }
 
 
-        public decimal Fakul(int zahl) {
+        internal decimal Fakul(int zahl) {
             OutofRange(zahl);
             this.Ergebnis = 1;
-            while (zahl > 0) {
-                this.Ergebnis *= zahl--;
+            while (zahl > 0) { 
+                this.Ergebnis *= zahl--; 
             }
             return this.Ergebnis;
         }
+
 
         /* oder:
         public decimal FakulRek(int zahl) {
@@ -43,7 +44,7 @@ namespace Mathematik {
             this.Ergebnis = 1;
             for (ulong i = 1; i <= zahl; i++) {
                 this.Ergebnis *= i;
-            }
+                }
             return this.Ergebnis;
         }
         */
