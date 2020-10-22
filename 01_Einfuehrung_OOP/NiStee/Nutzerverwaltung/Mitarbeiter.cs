@@ -1,7 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Nutzerverwaltung {
     public class Mitarbeiter {
         public string Nachname { get; set; }
