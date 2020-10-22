@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Mathematik {
     public class Mathe {
@@ -35,20 +35,21 @@ namespace Mathematik {
                 this.Ergebnis *= zahl--;
             return this.Ergebnis;
         }
-        /* public ulong FakulRek(uint zahl) {
-            if (zahl < 0)
-                throw new ArgumentOutOfRangeException("Zahl darf nicht kleiner 0 sein");
 
-            ulong fakultät = 1;
 
-            if (zahl == 0 || zahl == 1)
-                fakultät = 1;
-            else {
-                for (ulong i = 1; i <= zahl; i++)
-                    fakultät *= i;
+        /* oder:
+        public decimal FakulRek(int zahl) {
+            OutofRange(zahl);
+            this.Ergebnis = 1;
+            if (zahl == 0 || zahl == 1) {
+                this.Ergebnis = 1;
+            } else {
+                for (ulong i = 1; i <= zahl; i++) {
+                    this.Ergebnis *= i;
+                }
             }
-
-            return fakultät;
+            return this.Ergebnis;
+        }
         */
     }
 }
