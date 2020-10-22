@@ -31,8 +31,9 @@ namespace Mathematik {
         public decimal Fakul(int zahl) {
             OutofRange(zahl);
             this.Ergebnis = 1;
-            while (zahl > 0)
+            while (zahl > 0) {
                 this.Ergebnis *= zahl--;
+            }
             return this.Ergebnis;
         }
 
@@ -42,7 +43,7 @@ namespace Mathematik {
             this.Ergebnis = 1;
             for (ulong i = 1; i <= zahl; i++) {
                 this.Ergebnis *= i;
-                }
+            }
             return this.Ergebnis;
         }
         */
