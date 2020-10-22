@@ -36,18 +36,13 @@ namespace Mathematik {
             return this.Ergebnis;
         }
 
-
         /* oder:
         public decimal FakulRek(int zahl) {
             OutofRange(zahl);
             this.Ergebnis = 1;
-            if (zahl == 0 || zahl == 1) {
-                this.Ergebnis = 1;
-            } else {
-                for (ulong i = 1; i <= zahl; i++) {
-                    this.Ergebnis *= i;
+            for (ulong i = 1; i <= zahl; i++) {
+                this.Ergebnis *= i;
                 }
-            }
             return this.Ergebnis;
         }
         */
