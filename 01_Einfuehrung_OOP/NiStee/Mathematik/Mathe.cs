@@ -3,11 +3,11 @@ using System;
 namespace Mathematik {
     public class Mathe {
 
-        public decimal Ergebnis { get; set; }
-
         public Mathe() {
 
         }
+        
+        public decimal Ergebnis { get; private set; }
 
         public void OutofRange(int zahl) {
             if (zahl <= 0) {
