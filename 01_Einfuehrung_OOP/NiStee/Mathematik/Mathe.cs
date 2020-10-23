@@ -1,45 +1,39 @@
 using System;
 
 namespace Mathematik {
-    public class Mathe {
-
-        public Mathe() {
-
-        }
-
-        internal decimal Ergebnis { get; private set; }
-
-        private void OutofRange(int zahl) {
+    public static class Mathe {
+                
+        private static void OutofRange(int zahl) {
             if (zahl <= 0) {
                 throw new ArgumentOutOfRangeException(nameof(zahl), $"Eingabewert \"{zahl}\" muss eine Natürliche Zahl (größer Null) sein");
             }
         }
 
-        internal decimal Summe(int zahl, int zahl2) {
+        public static decimal Summe(int zahl, int zahl2) {
             OutofRange(zahl);
             OutofRange(zahl2);
-            this.Ergebnis = zahl + zahl2;
-            return this.Ergebnis;
+            decimal Ergebnis = zahl + (decimal)zahl2;
+            return Ergebnis;
         }
-        internal decimal Quadrat(int zahl) {
+        public static decimal Quadrat(int zahl) {
             OutofRange(zahl);
-            this.Ergebnis = zahl * zahl;
-            return this.Ergebnis;
+            var Ergebnis = zahl * zahl;
+            return Ergebnis;
         }
 
 
-        internal decimal Fakul(int zahl) {
+        public static decimal Fakul(int zahl) {
             OutofRange(zahl);
-            this.Ergebnis = 1;
+            decimal Ergebnis = 1;
             while (zahl > 0) { 
-                this.Ergebnis *= zahl--; 
+                Ergebnis *= zahl--; 
             }
-            return this.Ergebnis;
+            return Ergebnis;
         }
 
 
         /* oder:
-        public decimal FakulRek(int zahl) {
+        public static decimal FakulRek(int zahl) {
             OutofRange(zahl);
             this.Ergebnis = 1;
             for (ulong i = 1; i <= zahl; i++) {
