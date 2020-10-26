@@ -30,16 +30,28 @@ namespace Mathematik {
             }
             return Ergebnis;
         }
-
-
-        /* oder:
-        public static decimal FakulRek(int zahl) {
+        /* oder als for-Schleife
+        public static decimal Fakul(int zahl) {
             OutofRange(zahl);
-            this.Ergebnis = 1;
-            for (ulong i = 1; i <= zahl; i++) {
-                this.Ergebnis *= i;
+            decimal Ergebnis = 1;
+            for (int i = 1; i <= zahl; i++) {
+                Ergebnis *= i;
                 }
-            return this.Ergebnis;
+            return Ergebnis;
+        }
+
+        *oder als rekursive for-Schleife
+        public static decimal Fakul(int zahl) {
+            Console.WriteLine($"Aufruf mit {zahl}");
+            if (zahl >= 1) {
+                // rekursiver Aufruf (ruft sich selbst auf)
+                var Ergebnis = zahl * Fakul(zahl - 1);
+                return Ergebnis;
+            } else {
+                // Abbruchbedingung der Rekursion
+                var Ergebnis = 1m;
+                return Ergebnis;
+            }
         }
         */
     }
