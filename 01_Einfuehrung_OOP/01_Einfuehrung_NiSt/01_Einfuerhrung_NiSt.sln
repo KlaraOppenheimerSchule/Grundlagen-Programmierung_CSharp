@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliothek", "Bibliothek\Bibliothek.csproj", "{935D26E4-2C23-4986-90FF-13F2E8E30F92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliothek", Einfuehrung_Book_NiSt\Bibliothek.csproj", "{935D26E4-2C23-4986-90FF-13F2E8E30F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutzerverwaltung", "Nutzerverwaltung\Nutzerverwaltung.csproj", "{246BA262-E3FF-4373-8630-451DD34DAD6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutzerverwaltung", "Nutzerverwaltung_NiSt\Nutzerverwaltung.csproj", "{246BA262-E3FF-4373-8630-451DD34DAD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematik", "Mathematik\Mathematik.csproj", "{AA058A00-DB92-431B-A43D-E1EC2F7EA5A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematik", "Mathematik_NiSt\Mathematik.csproj", "{AA058A00-DB92-431B-A43D-E1EC2F7EA5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
