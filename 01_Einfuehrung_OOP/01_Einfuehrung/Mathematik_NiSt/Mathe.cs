@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
 namespace Mathematik {
     public static class Mathe {
-                
+                            
         private static void OutofRange(int zahl) {
             if (zahl <= 0) {
                 throw new ArgumentOutOfRangeException(nameof(zahl), $"Eingabewert \"{zahl}\" muss eine Natürliche Zahl (größer Null) sein");
@@ -12,13 +12,13 @@ namespace Mathematik {
         public static decimal Summe(int zahl, int zahl2) {
             OutofRange(zahl);
             OutofRange(zahl2);
-            decimal Ergebnis = zahl + (decimal)zahl2;
-            return Ergebnis;
+            return zahl + zahl2;
+            
         }
         public static decimal Quadrat(int zahl) {
             OutofRange(zahl);
-            var Ergebnis = zahl * zahl;
-            return Ergebnis;
+            return zahl * zahl;
+            
         }
 
 
@@ -39,10 +39,12 @@ namespace Mathematik {
                 }
             return Ergebnis;
         }
+        
 
-        *oder als rekursive for-Schleife
+        // oder als rekursive for-Schleife
         public static decimal Fakul(int zahl) {
             Console.WriteLine($"Aufruf mit {zahl}");
+            if (zahl OutofRange(zahl);
             if (zahl >= 1) {
                 // rekursiver Aufruf (ruft sich selbst auf)
                 var Ergebnis = zahl * Fakul(zahl - 1);
