@@ -17,6 +17,16 @@ namespace Gewaesseraufgabe
             Console.WriteLine("Die Länge ist: " + fluss3.getVerlauf());
             Console.WriteLine("Die Länge ist: " + meer1.getVerlauf());
             Console.ReadKey();
+
+            GewaesserVerwalter verwalter = new GewaesserVerwalter();
+            verwalter.listeErgaenzen(meer1);
+            verwalter.listeErgaenzen(fluss1);
+            verwalter.listeErgaenzen(fluss2);
+            verwalter.listeErgaenzen(fluss3);
+            verwalter.zeigeGewaesserAn();
+
+            Console.ReadKey();
+
         }
     }
 }

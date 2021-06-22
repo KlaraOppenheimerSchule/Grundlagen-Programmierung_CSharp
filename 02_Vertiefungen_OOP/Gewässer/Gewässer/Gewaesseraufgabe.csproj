@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Fluss.cs" />
     <Compile Include="Gewaesser.cs" />
+    <Compile Include="GewaesserVerwalter.cs" />
     <Compile Include="Meer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
