@@ -6,7 +6,7 @@ namespace AbstractFactoryDesignPattern
     {
         static void Main(string[] args)
         {
-            //Irgendwas
+            //idk
         }
     }
 }
