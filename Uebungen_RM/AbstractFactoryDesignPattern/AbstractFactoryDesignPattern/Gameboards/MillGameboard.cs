@@ -6,5 +6,9 @@ namespace AbstractFactoryDesignPattern
 {
     class MillGameboard : Gameboard
     {
+        public override string placeBoard()
+        {
+            return "Mill board is placed!";
+        }
     }
 }

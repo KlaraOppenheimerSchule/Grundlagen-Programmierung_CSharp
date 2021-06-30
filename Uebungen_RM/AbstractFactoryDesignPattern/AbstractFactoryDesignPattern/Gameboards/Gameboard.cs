@@ -8,5 +8,7 @@ namespace AbstractFactoryDesignPattern
     {
         int size;
         string color;
+
+        abstract public string placeBoard();
     }
 }
