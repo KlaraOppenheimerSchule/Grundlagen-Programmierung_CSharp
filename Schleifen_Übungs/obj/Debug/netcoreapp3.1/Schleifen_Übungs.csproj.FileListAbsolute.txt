@@ -1,0 +1,14 @@
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.exe
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.deps.json
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.runtimeconfig.json
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.runtimeconfig.dev.json
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.dll
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\bin\Debug\netcoreapp3.1\Schleifen_Übungs.pdb
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.csproj.AssemblyReference.cache
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.AssemblyInfoInputs.cache
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.AssemblyInfo.cs
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.csproj.CoreCompileInputs.cache
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.dll
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.pdb
+C:\Users\josch\source\Repos\Schleifen_Übungs\Schleifen_Übungs\obj\Debug\netcoreapp3.1\Schleifen_Übungs.genruntimeconfig.cache
