@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adressbook
+namespace Nutzerverwaltung
 {
-   public class Contacts
+    class Konto
     {
-        public Contact
+        public string getData()
+        {
+            return "123456789";
+        }
     }
 }
-)

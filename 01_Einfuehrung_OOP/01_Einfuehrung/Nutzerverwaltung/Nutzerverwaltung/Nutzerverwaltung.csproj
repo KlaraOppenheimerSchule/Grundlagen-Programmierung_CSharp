@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISpezialfunktion.cs" />
+    <Compile Include="Konto.cs" />
+    <Compile Include="Premiumnutzer.cs" />
+    <Compile Include="Basisnutzer.cs" />
     <Compile Include="Nutzer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

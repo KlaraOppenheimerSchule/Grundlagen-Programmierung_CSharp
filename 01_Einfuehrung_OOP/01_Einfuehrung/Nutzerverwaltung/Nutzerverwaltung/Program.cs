@@ -15,10 +15,16 @@ namespace Nutzerverwaltung
             Console.WriteLine("Nachname:");
             string nachname = Console.ReadLine();
 
-            Nutzer ersterNutzer = new Nutzer(vorname, nachname);
+            Konto tempKonto = new Konto();
+
+            Basisnutzer ersterNutzer = new Basisnutzer(vorname, nachname, tempKonto);
             Console.WriteLine(ersterNutzer.getVorname());
             Console.WriteLine(ersterNutzer.getNachname());
 
+            Premiumnutzer zweiterNutzer= new Premiumnutzer(vorname, nachname, tempKonto);
+            zweiterNutzer.werbungAusschalten();
+            Console.WriteLine(zweiterNutzer.getNachname());
+            Console.WriteLine(zweiterNutzer.getKontodaten());
             Console.ReadLine();
         }
     }

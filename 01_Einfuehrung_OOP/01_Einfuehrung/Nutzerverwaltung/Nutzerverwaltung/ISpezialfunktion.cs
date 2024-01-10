@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book_Interface
+namespace Nutzerverwaltung
 {
-    interface IPrintable
+    interface ISpezialfunktion
     {
-        void print();
+        void werbungAusschalten();
     }
 }
